@@ -1,10 +1,11 @@
 :root {
     /* Colors */
-    --color-brand-primary: #6C80A0;
-    --color-brand-secondary: #3B414B;
+    --color-primary: #eaeef4;
+    --color-secondary: #eae1ce;
 
-    --color-bg-primary: #202733;
-    --color-bg-secondary: #CAC0AD;
+    --color-bg-primary: #f5f9ff;
+    --color-bg-secondary: #1c1c1e;
+    --color-bg-terciary: #76694f;
 
     --color-accent: #4B3C21;
 
@@ -23,4 +24,44 @@
 
 body {
     scroll-behavior: smooth;
+    background-color: var(--color-bg-primary);
+}
+
+.header {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title {
+    font: normal 1.8em var(--sekuya-font);
+    letter-spacing: 2.5px;
+    margin: 5px 0;
+    padding: 15px 0;
+}
+
+.header__button {
+    background-color: var(--color-bg-secondary);
+    border: none;
+    color: var(--color-primary);
+}
+
+.header__navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.header__link {
+    font: bold 1.1em var(--quicksand-font);
+    background-color: var(--color-bg-terciary);
+    color: var(--color-secondary);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
 }
