@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --color-brand-primary: #6C80A0;
+    --color-brand-secondary: #3B414B;
+
+    --color-bg-primary: #202733;
+    --color-bg-secondary: #CAC0AD;
+
+    --color-accent: #4B3C21;
+
+    /* Fonts */
+    --sekuya-font: "Sekuya", system-ui;
+    --roboto-mono-font: "Roboto Mono", monospace;
+    --quicksand-font: "Quicksand", sans-serif;
+    --exo-font: "Exo 2", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
