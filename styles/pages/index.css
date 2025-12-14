@@ -1,0 +1,74 @@
+.welcome {
+    background-color: var(--brown-200);
+    display: flex;
+    align-items: center;
+}
+
+.welcome__image {
+    height: 125px;
+}
+
+.cat-laying {
+    background-image: url('../../assets/images/theme/cat-nature.png');
+}
+
+.explore {
+    background-color: var(--brown-300);
+}
+
+.start {
+    background-color: var(--brown-200);
+    padding-bottom: 50px;
+}
+
+.start__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.start__button {
+    width: 80vw;
+    padding: 10px;
+    border-radius: 12px;
+    font: bold 1em var(--quicksand-font);
+}
+
+.start__button--curiosities {
+    border: 2.5px solid var(--brown-500);
+    color: var(--beige-600);
+}
+
+.start__button--records {
+    border: none;
+    background-color: var(--brown-500);
+    color: var(--brown-300);
+}
+
+.start__button--adoption {
+    border: 2.5px solid var(--beige-600);
+    color: var(--neutral-100);
+    background-color: var(--brown-300);
+}
+
+.colors__item {
+    display: flex;
+}
+
+.colors__item div {
+    width: 75%;
+}
+
+.colors__image {
+    height: 105px;
+}
+
+main img {
+    border-radius: 50%;
+    margin: 0 25px;
+    box-shadow: 0 0 12px var(--brown-400);
+}
+
