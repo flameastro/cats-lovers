@@ -145,6 +145,11 @@ body {
     color: var(--neutral-50);
     text-decoration: none;
     padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.footer__link:hover {
+    color: var(--beige-300);
 }
 
 .footer__image {
@@ -171,7 +176,7 @@ h3 {
 }
 
 p {
-    font: normal 1em var(--quicksand-font);
+    font: normal 0.8em var(--quicksand-font);
     color: var(--neutral-800);
     padding: 10px 15px;
 }

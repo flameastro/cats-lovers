@@ -5,7 +5,7 @@
 }
 
 .welcome__image {
-    height: 125px;
+    height: 85px;
 }
 
 .cat-laying {
@@ -68,7 +68,7 @@
 
 main img {
     border-radius: 50%;
-    margin: 0 25px;
+    margin: 0 15px;
     box-shadow: 0 0 12px var(--brown-400);
 }
 
