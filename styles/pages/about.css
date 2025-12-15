@@ -1,0 +1,33 @@
+.background-image {
+    background-image: url("../../assets/images/theme/curious-cat.png");
+    height: 25vh;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.about article {
+    padding: 25px 0;
+}
+
+.introduction {
+    background-color: var(--beige-200);
+}
+
+.more {
+    background-color: var(--brown-300);
+}
+
+.about__links {
+    margin-left: 45px;
+}
+
+.about__link {
+    color: var(--blue-700);
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.about__link:hover {
+    text-decoration: underline;
+    color: var(--neutral-800);
+}
