@@ -1,0 +1,17 @@
+.background-image {
+    background: url('../../assets/images/theme/curious-cat2.png');
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0 0 7px rgba(92, 69, 27, 0.215);
+    z-index: 99;
+}
+
+.introduction {
+    background-color: var(--brown-100);
+}
+
+.curiosities {
+    background-color: var(--beige-200);
+}
