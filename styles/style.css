@@ -11,7 +11,7 @@
     --neutral-900: #141517;
 
     --blue-50:  #f2f6fc;
-    --blue-100: #e6eef9;
+    --blue-100: #e6euef9;
     --blue-200: #c9daf2;
     --blue-300: #a6c0e6;
     --blue-400: #7fa2d6;
@@ -180,4 +180,13 @@ h3 {
 p {
     color: var(--neutral-800);
     padding: 10px 25px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 6px;
 }
