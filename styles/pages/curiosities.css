@@ -1,5 +1,5 @@
 .background-image {
-    background: url('../../assets/images/theme/curious-cat2.png');
+    background: url('../../assets/images/curious-cat2.png');
     height: 25vh;
     background-size: cover;
     background-position: center;
@@ -14,4 +14,31 @@
 
 .curiosities {
     background-color: var(--beige-200);
+}
+
+.more {
+    background-color: var(--beige-300);
+    padding: 20px 0;
+}
+
+.more__list {
+    margin-left: 24px;
+    list-style: none;
+}
+
+.more__icon {
+    position: relative;
+    left: 15px;
+}
+
+.more__link {
+    text-decoration: none;
+    font: bold 1em var(--poppins-font);
+    color: var(--beige-800);
+    transition: all 0.3s ease-in-out;
+}
+
+.more__link:hover {
+    text-decoration: underline;
+    color: var(--brown-500);
 }
