@@ -1,11 +1,10 @@
 function navbarToggle() {
     const btn = document.getElementById('btn');
     const menu = document.getElementById('menu');
-    menu.style.display = 'none';
+    menu.style.display = 'flex';
 
     let isOpen = false;
 
-    
     btn.addEventListener('click', () => {
         if (isOpen) {
             menu.style.display = 'none';
