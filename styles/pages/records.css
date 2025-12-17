@@ -1,0 +1,47 @@
+.card {
+    background-color: var(--beige-200);
+}
+
+.background-image {
+    background-image: url("../../assets/images/flower-cat.png");
+    background-position: center;
+    height: 35vh;
+    box-shadow: 0 0 12px #78461a38;
+}
+
+.records__subtitle {
+    margin-top: 32px;
+}
+
+.records__picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.records__image {
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 7px #00000057;
+    transition: all 0.5s ease-in;
+    margin-bottom: 12px;
+}
+
+.records__image:hover {
+    transform: scale(1.10);
+}
+
+.records__caption {
+    text-align: center;
+}
+
+.records__link {
+    text-decoration: none;
+    font: bold 1.15em var(--saira-font);
+    color: var(--brown-400);
+    transition: all 0.3s ease-in-out;
+}
+
+.records__link:hover {
+    color: var(--brown-600);
+}
