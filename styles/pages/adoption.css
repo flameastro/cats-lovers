@@ -1,0 +1,39 @@
+.card {
+    background-color: var(--beige-300);
+}
+
+.adoption__item {
+    margin-top: 25px;
+}
+
+.more__description {
+    padding: 0;
+    margin: 0 0 0 15px;
+}
+
+.adoption__button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.adoption__button {
+    background-color: var(--brown-600);
+    font: bold 1.15em var(--poppins-font);
+    border: 2.5px dashed var(--brown-300);
+    color: var(--brown-200);
+    border-radius: 12px;
+    padding: 10px 25px;
+    width: 75vw;
+    transition: all 0.5s ease-in-out;
+}
+
+.adoption__button:hover {
+    background-color: var(--brown-300);
+    color: var(--brown-600);
+    border: 2.5px dashed var(--brown-400);
+}
+
+.adoption__link {
+    font: bold 1em var(--poppins-font);
+    color: var(--brown-600);
+}
