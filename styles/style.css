@@ -60,7 +60,7 @@
 
 body {
     scroll-behavior: smooth;
-    background-color: var(--neutral-100);
+    background-color: var(--brown-100);
     font-family: var(--manrope-font);
 }
 
@@ -193,4 +193,80 @@ button {
 .material-symbols-outlined {
     position: relative;
     top: 6px;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.45em;
+    }
+
+    p {
+        color: var(--neutral-800);
+        padding: 10px 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .header__title {
+        width: fit-content;
+        font: bold 2em var(--tilt-warp-font);
+    }
+
+    .header__button {
+        visibility: hidden;
+    }
+
+    .header__navbar {
+        visibility: visible;
+        flex-direction: row;
+        justify-content: end;
+        width: fit-content;
+    }
+
+    .header__link {
+        width: fit-content;
+        padding: 7px 15px;
+    }
+
+    .header__link:hover {
+        background-color: var(--brown-800);
+        color: var(--brown-400);
+    }
+
+    .background-image {
+        margin: auto;
+    }
+
+    .card {
+        margin: auto;
+        max-width: 860px;
+    }
+
+    .more {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        justify-content: space-evenly;
+        padding: 5px;
+    }
 }

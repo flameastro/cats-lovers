@@ -5,7 +5,6 @@
     background-position: center;
     background-attachment: fixed;
     box-shadow: 0 0 7px rgba(92, 69, 27, 0.215);
-    z-index: 99;
 }
 
 .more {
@@ -32,4 +31,22 @@
 .more__link:hover {
     text-decoration: underline;
     color: var(--brown-500);
+}
+
+@media screen and (min-width : 768px) {
+    .background-image {
+        height: 37vh;
+        background-position: center;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+    }
+
+    .curiosities {
+        display: flex;
+    }
+
+    .curiosities div {
+        width: 50%;
+    }
+
 }

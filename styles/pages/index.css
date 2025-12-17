@@ -10,14 +10,14 @@
 .cat-laying {
     background-image: url('../../assets/images/cat-nature.png');
     height: 35vh;
-    box-shadow: 0 0 4.5px #0000003f;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
-.start {
+.more {
     padding-bottom: 50px;
 }
 
-.start__buttons {
+.more__buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,25 +26,25 @@
     gap: 10px;
 }
 
-.start__button {
+.more__button {
     width: 80vw;
     padding: 10px;
     border-radius: 12px;
     font: bold 1em var(--quicksand-font);
 }
 
-.start__button--curiosities {
+.more__button--curiosities {
     border: 2.5px solid var(--brown-500);
     color: var(--beige-600);
 }
 
-.start__button--records {
+.more__button--records {
     border: none;
     background-color: var(--brown-500);
     color: var(--brown-300);
 }
 
-.start__button--adoption {
+.more__button--adoption {
     border: 2.5px solid var(--beige-600);
     color: var(--brown-600);
     background-color: var(--brown-300);
@@ -66,4 +66,30 @@ main img {
     border-radius: 50%;
     margin: 0 15px;
     box-shadow: 0 0 12px var(--brown-400);
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .more__buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .more__button {
+        width: fit-content;
+        padding: 10px 25px;
+        border-radius: 12px;
+        font: bold 1em var(--quicksand-font);
+    }
+
+    .cat-laying {
+        background-position: left;
+        height: 35vh;
+        border-radius: 12px;
+    }
 }

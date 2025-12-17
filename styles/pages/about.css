@@ -23,3 +23,11 @@
     text-decoration: underline;
     color: var(--neutral-800);
 }
+
+@media screen and (min-width: 768px) {
+    .background-image {
+        background-position: top;
+        height: 45vh;
+        border-radius: 12px;
+    }
+}
