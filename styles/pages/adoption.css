@@ -37,3 +37,7 @@
     font: bold 1em var(--poppins-font);
     color: var(--brown-600);
 }
+
+.more__list {
+    padding: 10px 50px;
+}
