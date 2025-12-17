@@ -11,7 +11,7 @@
 .cat-laying {
     background-image: url('../../assets/images/cat-nature.png');
     height: 35vh;
-    box-shadow: 0 0 12px var(--neutral-700);
+    box-shadow: 0 0 4.5px #0000003f;
 }
 
 .explore {
