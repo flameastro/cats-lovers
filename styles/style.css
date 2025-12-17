@@ -114,6 +114,10 @@ body {
     width: 100%;
 }
 
+.card {
+    background-color: var(--brown-100);
+}
+
 .footer {
     background-color: var(--neutral-900);
     color: var(--beige-50);

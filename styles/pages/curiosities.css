@@ -8,16 +8,7 @@
     z-index: 99;
 }
 
-.introduction {
-    background-color: var(--brown-100);
-}
-
-.curiosities {
-    background-color: var(--beige-200);
-}
-
 .more {
-    background-color: var(--beige-300);
     padding: 20px 0;
 }
 

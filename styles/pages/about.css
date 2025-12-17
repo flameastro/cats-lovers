@@ -8,14 +8,6 @@
     padding: 25px 0;
 }
 
-.introduction {
-    background-color: var(--beige-200);
-}
-
-.more {
-    background-color: var(--brown-300);
-}
-
 .about__links {
     margin-left: 45px;
 }
